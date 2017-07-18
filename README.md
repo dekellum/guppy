@@ -15,3 +15,10 @@ change the paths as appropriate.
 [Fishwife]: http://github.com/dekellum/fishwife
 [/systemd]: http://github.com/dekellum/guppy/tree/master/systemd
 [/bin/guppy]: http://github.com/dekellum/guppy/blob/master/bin/guppy
+
+## Public Domain
+
+This work is not copyrighted. It is made available on an "as is"
+basis, without warranties or conditions of any kind, either express or
+implied. Do whatever you want with it, with absolutely no
+restrictions, and no permission required.
