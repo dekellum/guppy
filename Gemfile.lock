@@ -5,17 +5,19 @@ GEM
       rack (>= 1.6.4, < 2.1)
       rjack-jetty (>= 9.2.11, < 9.5)
       rjack-slf4j (~> 1.7.2)
-    rack (1.6.8)
-    rack-protection (1.5.3)
+    mustermann (1.0.0)
+    rack (2.0.3)
+    rack-protection (2.0.0)
       rack
     rjack-jetty (9.4.6.0-java)
     rjack-logback (1.9.0-java)
       rjack-slf4j (~> 1.7.16)
     rjack-slf4j (1.7.25.0-java)
-    sinatra (1.4.8)
-      rack (~> 1.5)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
     tilt (2.0.7)
 
 PLATFORMS
@@ -25,7 +27,7 @@ PLATFORMS
 DEPENDENCIES
   fishwife (~> 1.10.0)
   rjack-logback (~> 1.9.0)
-  sinatra (~> 1.4.7)
+  sinatra (~> 2.0.0)
 
 BUNDLED WITH
    1.15.1
